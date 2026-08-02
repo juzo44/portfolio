@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GRID Warfare — мод Minecraft — juzo44</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<link rel="stylesheet" href="../assets/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="../index.html">juzo44<span>.</span></a>
+      <div class="header-actions">
+        <button class="theme-toggle" id="themeToggle" aria-label="Переключить тему">
+          <svg class="icon-moon" viewBox="0 0 24 24"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+        </button>
+        <button class="nav-toggle" aria-label="Меню">☰</button>
+      </div>
+      <nav class="nav">
+        <a href="../index.html">Главная</a>
+        <a href="../projects.html">Проекты</a>
+        <a href="../about.html">Обо мне</a>
+        <a href="../contact.html">Контакты</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="project-hero">
+      <div class="container">
+        <p class="eyebrow">Проект · Игровой мод</p>
+        <h1>GRID Warfare — кастомное меню Minecraft</h1>
+        <div class="project-meta">
+          <span>Роль: <b>дизайн и разработка</b></span>
+          <span>Стек: <b>Java 21, NeoForge 21.1, GLSL-текстуры</b></span>
+          <span>Статус: <b>релиз</b></span>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="frame"><div class="frame-bar"><span class="frame-dot r"></span><span class="frame-dot y"></span><span class="frame-dot g"></span><span class="frame-addr">Minecraft 1.21.1 • grid-server.ru</span></div><img loading="lazy" src="../assets/img/mod.jpg" alt="GRID Warfare — меню"></div>
+        <div class="prose">
+          <h2>О проекте</h2>
+          <p>Мод, который полностью заменяет главное меню Minecraft на фирменный экран сервера: фотобэкграунд, собственные текстуры кнопок, логотип. Устанавливается вместе с клиентом.</p>
+
+          <h2>Что внутри</h2>
+          <ul>
+            <li>Генерация набора UI-текстур: кнопки, иконки соцсетей, панели — в едином стиле;</li>
+            <li>Живой статус сервера в меню: онлайн-игроки и пинг обновляются каждые 30 секунд;</li>
+            <li>Экран «О сервере»: адрес, копирование IP, ссылки на соцсети, прямой вход;</li>
+            <li>Интеграция с ванильными экранами: одиночная игра, настройки, выход.</li>
+          </ul>
+
+          <h2>Почему это интересно</h2>
+          <p>Соединяет веб-дизайн и Java-разработку: текстуры отрисованы как макеты, а в рантайме меню ведёт себя как живой интерфейс — с опросом сервера и адаптивной вёрсткой под любое окно.</p>
+        </div>
+      </div>
+    </section>
+  <section class="section" style="padding-bottom:0;"><div class="container cta-block"><h2>Заинтересовал проект?</h2><p>Расскажу про дизайн, архитектуру и детали реализации — или обсудим ваш проект.</p><div class="hero-actions" style="justify-content:center;"><a class="btn btn-primary" href="../contact.html">Связаться</a></div></div></section></main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span>© <span data-year></span> juzo44</span>
+      <div class="socials"><a href="https://github.com/juzo44" aria-label="GitHub"><svg viewBox="0 0 24 24"><path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.56v-2c-3.2.7-3.87-1.54-3.87-1.54-.53-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.77 2.7 1.26 3.36.96.1-.75.4-1.26.73-1.55-2.55-.29-5.23-1.28-5.23-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11.1 11.1 0 0 1 5.77 0c2.2-1.49 3.16-1.18 3.16-1.18.63 1.59.24 2.76.12 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A10.52 10.52 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5z"/></svg></a><a href="https://t.me/juzoxll44" aria-label="Telegram"><svg viewBox="0 0 24 24"><path d="M21.94 3.3a1.5 1.5 0 0 0-1.53-.34L3.2 9.23c-1.16.45-1.1 2.13.1 2.5l4.16 1.29 1.57 5.01c.33 1.07 1.72 1.3 2.38.4l2.05-2.76 3.99 2.93c.88.64 2.12.21 2.37-.85l2.74-12.77a1.5 1.5 0 0 0-.62-1.68z"/></svg></a></div>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js"></script>
+</body>
+</html>

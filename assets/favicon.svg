@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="14" fill="#17181a"/>
+  <circle cx="45" cy="19" r="7" fill="#3ecf8e"/>
+  <text x="32" y="45" font-family="Arial, sans-serif" font-size="30" font-weight="700" fill="#eef1f6" text-anchor="middle">И</text>
+</svg>
